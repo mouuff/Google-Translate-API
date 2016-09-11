@@ -36,5 +36,7 @@ if __name__ == '__main__':
     to_translate = 'Hola como estas?'
     print("%s >> %s" % (to_translate, translate(to_translate)))
     print("%s >> %s" % (to_translate, translate(to_translate, 'fr')))
+    to_translate = 'نمر'
+    print(translateFromUnicode('نمر', "en", "ar"))
     #should print Hola como estas >> Hello how are you
     #and Hola como estas? >> Bonjour comment allez-vous?
